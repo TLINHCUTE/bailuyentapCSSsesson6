@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            text-align: center;
+            padding: 10px;
+        }
+        .container {
+            display: flex;
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 25%;
+            padding: 20px;
+            background: #f8f8f8;
+        }
+        .content {
+            width: 75%;
+            padding: 20px;
+        }
+        .post {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+        .post img {
+            width: 100%;
+            max-width: 300px;
+        }
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>My blog</h2>
+        <a href="#home">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#about">About</a>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <h3>Chuyên mục</h3>
+            <ul>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#javascript">JavaScript</a></li>
+                <li><a href="#html">HTML</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="post">
+                <h3>Bài viết 1</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJZD6fodfhiGVz_etyT2YrFQz4L9HhfFGu2Q&s?size=160" alt="Bài viết 1">
+                <p>Đây là nội dung tóm tắt của bài viết 1.</p>
+            </div>
+            <div class="post">
+                <h3>Bài viết 2</h3>
+                <img src="https://img.tineye.com/result/bf15b5d48aa15f6127f2d845a6cd5925aff172a3924c46083c4e9b6a7740e329-70?size=160" alt="Bài viết 2">
+                <p>Đây là nội dung tóm tắt của bài viết 2.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        Liên hệ: <a href="mailto:email@example.com" style="color: white;">email@example.com</a>
+    </div>
+</body>
+</html>

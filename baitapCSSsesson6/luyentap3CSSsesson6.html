@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio của TSUBASA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #363232;
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar h1 span {
+            font-weight: bold;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin-left: 20px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .intro {
+            display: flex;
+            align-items: center;
+            background-color: #f2f2f2;
+            padding: 40px;
+            justify-content: left;
+        }
+
+        .intro img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid black;
+            margin-right: 20px;
+        }
+
+        .projects {
+            text-align: left;
+            margin: 40px 0;
+            
+        }
+
+        .project-list {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0;
+
+        }
+
+        .project {
+            background-color: #222;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            width: 530px;
+            text-align: center;
+        }
+
+        .github {
+            text-align: center;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+
+        .github a {
+            font-weight: bold;
+            text-decoration: none;
+            color: rgba(22, 21, 21, 0.873);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <h1>Portfolio của <span>TSUBASA</span></h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <section class="intro">
+        <img src="https://kilala.vn/data/uploads/2024/090120241641-1704793308-captain-tsubasa.webp"
+            alt="Avatar của TSUBASA">
+        <h2>Xin chào! Tôi là <span>TSUBASA</span>, một nhà phát triển web sáng tạo.</h2>
+    </section>
+
+    <section class="projects">
+        <h2>Dự án của tôi</h2>
+        <div class="project-list">
+            <option class="project">Dự án 1</option>
+            <option class="project">Dự án 2</option>
+            <option class="project">Dự án 3</option>
+            <option class="project">Dự án 4</option>
+        </div>
+    </section>
+
+    <div class="github">
+        Kết nối với tôi trên <a href="#linkedin">LinkedIn</a> | <a href="#github">GitHub</a>
+    </div>
+
+</body>
+
+</html>
